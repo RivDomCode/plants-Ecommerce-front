@@ -1,0 +1,110 @@
+.login {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-container {
+  display: grid;
+  grid-template-rows:
+    auto 1fr
+    auto;
+  width: 300px;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 28px;
+  justify-self: center;
+  display: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form a {
+  color: $lightGreen;
+  font-size: $sm;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 52px;
+}
+
+.title {
+  font-size: $lg;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.title-account {
+  font-size: $lg;
+  text-align: start;
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  color: $lightGray;
+  font-size: $md;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.input {
+  background-color: $inputField;
+  border: none;
+  border-radius: 8px;
+  height: 30px;
+  font-size: $md;
+  padding: 6px;
+  margin-bottom: 12px;
+}
+.input-email,
+.input-name,
+.input-password {
+  margin-bottom: 22px;
+}
+
+.primary-btn {
+  background-color: $lightGreen;
+  border-radius: 8px;
+  border: none;
+  color: $white;
+  width: 100%;
+  cursor: pointer;
+  font-size: $md;
+  font-weight: bold;
+  height: 50px;
+}
+
+.secondary-btn {
+  background-color: $white;
+  border-radius: 8px;
+  border: 1px solid $lightGreen;
+  color: $lightGreen;
+  width: 100%;
+  cursor: pointer;
+  font-size: $md;
+  font-weight: bold;
+  height: 50px;
+}
+
+.login-btn {
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 640px) {
+  .logo {
+    display: block;
+  }
+  .secondary-btn,
+  .create-btn {
+    margin-top: 100px;
+  }
+}

@@ -1,0 +1,42 @@
+.email-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+  background-color: $inputField;
+  border-radius: 50%;
+  width: 132px;
+
+  margin: auto;
+  height: 132px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.mail-icon {
+  color: $lightGreen;
+  font-size: 45px;
+  align-items: center;
+  justify-items: center;
+}
+
+.resend {
+  font-size: $md;
+  justify-self: center;
+}
+
+.resend span {
+  color: $lightGray;
+}
+
+.resend a {
+  color: $lightGreen;
+  text-decoration: none;
+}
+
+.value {
+  color: $lightGray;
+  margin-bottom: 22px;
+  margin-top: 5px;
+  font-size: $md;
+}
