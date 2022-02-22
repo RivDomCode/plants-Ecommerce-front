@@ -6,7 +6,12 @@ export const Navbar = () => {
     <nav>
       <i className="fas fa-bars menu"></i>
       <div className="navbar-left">
-        <img src={logo} alt="logo" className="nav-logo" />
+        {/* <img src={logo} alt="logo" className="nav-logo" /> */}
+        <img src="https://img.icons8.com/glyph-neue/64/000000/potted-plant.png" />
+        {/* icon taken from :{" "}
+<a href="https://icons8.com/icon/qQ0MmZi3z2rX/planta-en-maceta">Planta en maceta icon by Icons8</a>
+        </a> */}
+        <span>Plants ecommerce</span>
         <ul>
           <li>
             <a href="/">All</a>

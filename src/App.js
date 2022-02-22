@@ -1,20 +1,18 @@
 
-import { Main } from "./components/Main";
-import { Navbar } from "./components/Navbar";
-import { ProductDetail } from "./components/ProductDetail";
-import { ShoppingCart } from "./components/ShoppingCart";
-import { NewPassword } from "./pages/NewPassword";
+import Login from "./pages/Login";
+import { Ordershistory } from "./pages/Ordershistory";
+
+import { ShoppingCart } from "./pages/ShoppingCart";
 
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Main />
-      <NewPassword />
-      <ProductDetail />
+
+      <Login />
       <ShoppingCart />
+      <Ordershistory />
     </div>
   );
 }

@@ -4,8 +4,8 @@ export const NewPassword = () => {
   return (
     <div className="login">
       <div className="form-container">
-        <img src="logos/The Only One (2).jpg" alt="logo" className="logo" />
-
+        <img src="https://img.icons8.com/glyph-neue/64/000000/potted-plant.png" />
+        <span>Plants Ecommerce</span>
         <h1 className="title">New Password Form</h1>
         <p className="subtitle">Create a new Password</p>
 
